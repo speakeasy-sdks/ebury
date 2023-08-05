@@ -1,4 +1,9 @@
 configVersion: 1.0.0
+management:
+  docChecksum: 0ca9c4acd606ee922dbfb14bfbc222d6
+  docVersion: "0.1"
+  speakeasyVersion: 1.68.3
+  generationVersion: 2.81.1
 generation:
   comments:
     disableComments: false
@@ -8,7 +13,7 @@ generation:
   singleTagPerOp: false
   tagNamespacingDisabled: false
 java:
-  version: 0.0.1
+  version: 1.0.0
   artifactID: ebury
   companyEmail: info@mycompany.com
   companyName: My Company

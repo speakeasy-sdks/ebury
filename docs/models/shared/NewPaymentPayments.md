@@ -1,0 +1,13 @@
+# NewPaymentPayments
+
+
+## Fields
+
+| Field                                                                           | Type                                                                            | Required                                                                        | Description                                                                     |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `accountId`                                                                     | *String*                                                                        | :heavy_check_mark:                                                              | The ID of the beneficiary's bank account                                        |
+| `amount`                                                                        | *Float*                                                                         | :heavy_check_mark:                                                              | The payment amount                                                              |
+| `beneficiaryId`                                                                 | *String*                                                                        | :heavy_check_mark:                                                              | The ID of the beneficiary                                                       |
+| `emailBeneficiary`                                                              | *Boolean*                                                                       | :heavy_minus_sign:                                                              | Whether the beneficiary should receive and email on payment                     |
+| `paymentDate`                                                                   | [LocalDate](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html) | :heavy_check_mark:                                                              | The date on which payment is required                                           |
+| `reference`                                                                     | *String*                                                                        | :heavy_check_mark:                                                              | Payment reference                                                               |

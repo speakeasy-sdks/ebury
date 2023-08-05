@@ -1,0 +1,11 @@
+# PatchPaymentsPaymentIdRequest
+
+
+## Fields
+
+| Field                                                                                   | Type                                                                                    | Required                                                                                | Description                                                                             |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| `xContactID`                                                                            | *String*                                                                                | :heavy_minus_sign:                                                                      | The ID of the contact                                                                   |
+| `action`                                                                                | [PatchPaymentsPaymentIdAction](../../models/operations/PatchPaymentsPaymentIdAction.md) | :heavy_check_mark:                                                                      | The action to take (authorise or reject)                                                |
+| `clientId`                                                                              | *String*                                                                                | :heavy_check_mark:                                                                      | The ID of the client                                                                    |
+| `paymentId`                                                                             | *String*                                                                                | :heavy_check_mark:                                                                      | Unique idenifier for payment                                                            |

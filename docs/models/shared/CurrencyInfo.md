@@ -1,0 +1,17 @@
+# CurrencyInfo
+
+
+## Fields
+
+| Field                                                           | Type                                                            | Required                                                        | Description                                                     |
+| --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- |
+| `availableForTrading`                                           | *Boolean*                                                       | :heavy_minus_sign:                                              | Is this currency available to trade                             |
+| `buyAllowed`                                                    | *Boolean*                                                       | :heavy_minus_sign:                                              | Is client allowed to buy this currency                          |
+| `creditLimit`                                                   | *String*                                                        | :heavy_minus_sign:                                              | Limit of the credit                                             |
+| `currency`                                                      | *String*                                                        | :heavy_minus_sign:                                              | Currency symbol                                                 |
+| `currencyLimit`                                                 | *String*                                                        | :heavy_minus_sign:                                              | Limit of the currency                                           |
+| `cutoff`                                                        | [CurrencyInfoCutoff](../../models/shared/CurrencyInfoCutoff.md) | :heavy_minus_sign:                                              | N/A                                                             |
+| `decimals`                                                      | *Long*                                                          | :heavy_minus_sign:                                              | Decimal settings of the client for the currency                 |
+| `default_`                                                      | *Boolean*                                                       | :heavy_minus_sign:                                              | Is this default currency of the client                          |
+| `holidays`                                                      | List<*String*>                                                  | :heavy_minus_sign:                                              | List of holidays in a format ISO-8601                           |
+| `sellAllowed`                                                   | *Boolean*                                                       | :heavy_minus_sign:                                              | Is client allowed to sell this currency                         |

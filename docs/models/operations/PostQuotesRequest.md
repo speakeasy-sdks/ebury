@@ -1,0 +1,11 @@
+# PostQuotesRequest
+
+
+## Fields
+
+| Field                                                                                        | Type                                                                                         | Required                                                                                     | Description                                                                                  |
+| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| `quoteRequest`                                                                               | [ebury.ebury.models.shared.QuoteRequest](../../models/shared/QuoteRequest.md)                | :heavy_check_mark:                                                                           | Request Payload                                                                              |
+| `xContactID`                                                                                 | *String*                                                                                     | :heavy_minus_sign:                                                                           | The ID of the contact                                                                        |
+| `clientId`                                                                                   | *String*                                                                                     | :heavy_check_mark:                                                                           | The ID of the client this quote is for                                                       |
+| `quoteType`                                                                                  | [PostQuotesQuoteType](../../models/operations/PostQuotesQuoteType.md)                        | :heavy_check_mark:                                                                           | The quote type. A quote_type of quote returns a quote ID which a trade can be booked against |

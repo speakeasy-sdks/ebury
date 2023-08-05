@@ -1,0 +1,13 @@
+# MultiPaymentResponse
+
+Multi payment created, see response body for status
+
+
+## Fields
+
+| Field                                                                                             | Type                                                                                              | Required                                                                                          | Description                                                                                       |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `accountDetails`                                                                                  | [MultiPaymentResponseAccountDetails](../../models/shared/MultiPaymentResponseAccountDetails.md)   | :heavy_minus_sign:                                                                                | N/A                                                                                               |
+| `invalidPayments`                                                                                 | List<[MultiPaymentError](../../models/shared/MultiPaymentError.md)>                               | :heavy_minus_sign:                                                                                | N/A                                                                                               |
+| `multipaymentId`                                                                                  | *Integer*                                                                                         | :heavy_check_mark:                                                                                | The multipayment ID                                                                               |
+| `tradeDetails`                                                                                    | List<[MultiPaymentResponseTradeDetails](../../models/shared/MultiPaymentResponseTradeDetails.md)> | :heavy_minus_sign:                                                                                | N/A                                                                                               |

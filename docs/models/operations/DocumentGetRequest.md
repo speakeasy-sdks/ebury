@@ -1,0 +1,11 @@
+# DocumentGetRequest
+
+
+## Fields
+
+| Field                                                                                  | Type                                                                                   | Required                                                                               | Description                                                                            |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| `xContactID`                                                                           | *String*                                                                               | :heavy_minus_sign:                                                                     | The identifier of a contact.                                                           |
+| `clientId`                                                                             | *String*                                                                               | :heavy_check_mark:                                                                     | The identifier of a client.                                                            |
+| `id`                                                                                   | *String*                                                                               | :heavy_check_mark:                                                                     | The ID of the entity that generated this document e.g. payment, trade, etc.            |
+| `type`                                                                                 | [ebury.ebury.models.shared.Type](../../models/shared/Type.md)                          | :heavy_check_mark:                                                                     | The document type: pi (payment instruction), pr (payment receipt), tr (trade receipt). |

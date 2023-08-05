@@ -1,0 +1,11 @@
+# BeneficiaryPatchRequest
+
+
+## Fields
+
+| Field                                                                                   | Type                                                                                    | Required                                                                                | Description                                                                             |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| `updateBeneficiary`                                                                     | [ebury.ebury.models.shared.UpdateBeneficiary](../../models/shared/UpdateBeneficiary.md) | :heavy_check_mark:                                                                      | List of field names and values for update an existing beneficiary.                      |
+| `xContactID`                                                                            | *String*                                                                                | :heavy_minus_sign:                                                                      | The identifier of a contact.                                                            |
+| `beneficiaryId`                                                                         | *String*                                                                                | :heavy_check_mark:                                                                      | The identifier of a beneficiary.                                                        |
+| `clientId`                                                                              | *String*                                                                                | :heavy_check_mark:                                                                      | The identifier of a client.                                                             |

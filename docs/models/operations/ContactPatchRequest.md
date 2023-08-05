@@ -1,0 +1,11 @@
+# ContactPatchRequest
+
+
+## Fields
+
+| Field                                                                           | Type                                                                            | Required                                                                        | Description                                                                     |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `contactUpdate`                                                                 | [ebury.ebury.models.shared.ContactUpdate](../../models/shared/ContactUpdate.md) | :heavy_check_mark:                                                              | List of field names and values for update an existing contact.                  |
+| `xContactID`                                                                    | *String*                                                                        | :heavy_minus_sign:                                                              | The identifier of a contact.                                                    |
+| `clientId`                                                                      | *String*                                                                        | :heavy_check_mark:                                                              | The identifier of a client.                                                     |
+| `contactId`                                                                     | *String*                                                                        | :heavy_check_mark:                                                              | The identifier of a contact.                                                    |

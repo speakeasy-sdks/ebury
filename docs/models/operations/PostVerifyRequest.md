@@ -1,0 +1,11 @@
+# PostVerifyRequest
+
+
+## Fields
+
+| Field                                                                                        | Type                                                                                         | Required                                                                                     | Description                                                                                  |
+| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| `requestBody`                                                                                | *byte[]*                                                                                     | :heavy_check_mark:                                                                           | 2FA code to verify                                                                           |
+| `clientId`                                                                                   | *String*                                                                                     | :heavy_check_mark:                                                                           | Your Authorization Client ID, identifies your application to the Authorisation Server        |
+| `code`                                                                                       | *String*                                                                                     | :heavy_check_mark:                                                                           | Your Authorization Client ID, identifies your application to the Authorisation Server        |
+| `redirectUri`                                                                                | *String*                                                                                     | :heavy_check_mark:                                                                           | The redirect URL that is registered for your application. This must match the value we hold. |

@@ -1,0 +1,9 @@
+# CutOffItem
+
+
+## Fields
+
+| Field                                                                                                        | Type                                                                                                         | Required                                                                                                     | Description                                                                                                  |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| `cutoffDays`                                                                                                 | *Long*                                                                                                       | :heavy_minus_sign:                                                                                           | The cutoff T+n days, expressed as an integer. The value '0' means there is not cutoff day for this currency. |
+| `cutoffTime`                                                                                                 | *String*                                                                                                     | :heavy_minus_sign:                                                                                           | The cutoff time, expressed as an string. The value 'null' means there is not cutoff time for this currency.  |

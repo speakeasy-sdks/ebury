@@ -1,0 +1,11 @@
+# NewStatement
+
+Request Payload
+
+
+## Fields
+
+| Field                                                                                                                                         | Type                                                                                                                                          | Required                                                                                                                                      | Description                                                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| `fromValueDatetime`                                                                                                                           | *String*                                                                                                                                      | :heavy_check_mark:                                                                                                                            | Only return transactions with value date after this date. Time ignored, considered always to be the start of the day. YYYY-MM-DDThh:mm format |
+| `toValueDatetime`                                                                                                                             | *String*                                                                                                                                      | :heavy_minus_sign:                                                                                                                            | Only return transactions with value date before this date. Time ignored, considered always to be the end of the day. YYYY-MM-DDThh:mm format  |

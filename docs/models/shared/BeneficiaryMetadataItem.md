@@ -1,0 +1,10 @@
+# BeneficiaryMetadataItem
+
+
+## Fields
+
+| Field                                                                                               | Type                                                                                                | Required                                                                                            | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| `country`                                                                                           | *String*                                                                                            | :heavy_minus_sign:                                                                                  | The country, expressed as an ISO 3166-1 alpha-2 value.                                              |
+| `currencies`                                                                                        | List<[BeneficiaryMetadataItemCurrencies](../../models/shared/BeneficiaryMetadataItemCurrencies.md)> | :heavy_minus_sign:                                                                                  | The requirements for a given currency for this country.                                             |
+| `reasonRequired`                                                                                    | *Boolean*                                                                                           | :heavy_minus_sign:                                                                                  | Whether or not a reason for trade for the country needs to be supplied.                             |
