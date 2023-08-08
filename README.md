@@ -6,7 +6,7 @@
 ### Gradle
 
 ```groovy
-implementation 'ebury.ebury:ebury:1.0.0'
+implementation 'ebury.ebury:ebury:1.1.0'
 ```
 <!-- End SDK Installation -->
 
